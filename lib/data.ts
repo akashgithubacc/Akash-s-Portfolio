@@ -1,10 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import cypherveilImg from "@/public/cypherveil.png";
 import fitfusionImg from "@/public/fitfusion.png";
 import memoriesImg from "@/public/memories.png";
+import anon from "@/public/anon.jpg";
 
 export const links = [
   {
@@ -43,24 +43,32 @@ export const experiencesData = [
     date: "2021-2025",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Front end Developer Intern",
+    location: "Blupp",
+    description:
+      "Reduced client site build size from 2MB+ to 0.5-0.9MB using Astro JS, Tailwind, JavaScript, and MDX, improving load times by 40-60%. Developed dynamic, responsive components with Tailwind CSS and JavaScript, ensuring smooth user experiences. Maintained clean code practices and efficient GitHub collaboration, enhancing teamwork across multiple projects.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jun 2023- July 2024",
+  },
+  {
+    title: "Front Developer Intern",
     location: "Baavlibuch",
     description:
       "Successfully implemented responsive front-end features in the site, entered databases into the system, maintained and cleaned more than 500 lines of code.",
     icon: React.createElement(CgWorkAlt),
     date: "July 2023",
   },
-  {
-    title: "Learning MERN stack",
-    location: "NIT Rourkela",
-    description:
-      "As an enthusiatic developer, I learned MERN stack and developed multiple frontend and full stack projects.",
-    icon: React.createElement(FaReact),
-    date: "2023-now",
-  },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Anon",
+    description:
+      "Optimized MongoDB for Next.js edge runtime, implemented authentication, AI-powered message suggestions, OTP emails, and built a responsive UI with ShadCN and Zod validation.",
+    tags: ["Nextjs", "Typescript", "Zod", "Hugging Face", "ShadCN", "MongoDB"],
+    imageUrl: anon,
+    projectLink: "https://github.com/anj20/CypherVeil",
+  },
   {
     title: "Cypherveil",
     description:
@@ -107,4 +115,5 @@ export const skillsData = [
   "Material UI",
   "SQL",
   "APIs",
+  "ShadCN",
 ] as const;
