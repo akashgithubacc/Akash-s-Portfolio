@@ -41,7 +41,9 @@ export default function About() {
         Passionate about solving real-world problems, I continuously enhance my
         abilities in web development and am proficient in Data Structures and
         Algorithms, solving over{" "}
-        <span className=" font-bold">200+ problems on LeetCode.</span>
+        <span className=" font-bold">
+          300+ problems on LeetCode and 150+ on codeforces.
+        </span>
       </p>{" "}
       <p>
         Outside of the tech world, I enjoy playing cricket, football, and
